@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    /* background-image: url('https://bit.ly/3nFVqJh'); */
+    /* background-image: url('https://wallpapercave.com/wp/wp1900373.jpg'); */
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation;
     /* duration/timing-function/delay/iterations/name */
@@ -97,6 +97,13 @@ body {
     text-decoration: none;
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
+}
+
+@media (min-height: 680px) {
+    #profilePicture,
+    #profilePicture img {
+        margin: 80px auto 20px;
+    }
 }
 
 @media (max-width: 674px) {
